@@ -1,0 +1,6 @@
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:28:6:TestLines	40	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:118:6:TestRectangles	40	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:135:6:TestFilledRectangles	40	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:153:6:TestFilledCircles	24	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:170:6:TestCircles	24	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/test.c:189:6:TestTriangles	56	static

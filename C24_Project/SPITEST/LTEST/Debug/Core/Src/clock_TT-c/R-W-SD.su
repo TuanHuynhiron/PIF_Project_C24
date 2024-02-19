@@ -1,0 +1,6 @@
+../Core/Src/clock_TT-c/R-W-SD.c:27:6:phatnhac	8	static
+../Core/Src/clock_TT-c/R-W-SD.c:31:6:readsdtxt	24	static
+../Core/Src/clock_TT-c/R-W-SD.c:40:6:str2uint8t	32	static
+../Core/Src/clock_TT-c/R-W-SD.c:46:6:readline	32	static
+../Core/Src/clock_TT-c/R-W-SD.c:67:6:readdanhsachnhac	32	static
+../Core/Src/clock_TT-c/R-W-SD.c:85:6:write_sd	32	static

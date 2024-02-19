@@ -1,0 +1,16 @@
+DS3231_TimeNow
+id
+timenow
+u8_revBuffer
+DHT1
+buffer
+nhac
+amthanh
+mode
+timeset
+controdoc
+controngang
+timealrm
+ghi
+tat
+dung

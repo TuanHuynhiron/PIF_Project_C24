@@ -1,0 +1,6 @@
+../Core/Src/dht11.c:9:6:DHT11_Begin	24	static
+../Core/Src/dht11.c:19:16:DHT11_Parser	24	static
+../Core/Src/dht11.c:42:13:DHT11_ConfigPin	32	static
+../Core/Src/dht11.c:55:13:DHT11_Delay_Us	16	static
+../Core/Src/dht11.c:61:16:DHT11_Expect_Pulse	16	static
+../Core/Src/dht11.c:72:9:DHT11_Read	32	static,ignoring_inline_asm

@@ -1,0 +1,186 @@
+02:35:01 **** Incremental Build of configuration Debug for project LTEST ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"C:/Users/Administrator/STM32CubeIDE/SPITEST/LTEST/Drivers/STM32F1xx_HAL_Driver/Src/oled" -I"C:/Users/Administrator/STM32CubeIDE/SPITEST/LTEST/Drivers/STM32F1xx_HAL_Driver/Inc/oled" -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:356:19: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  356 |     controdoc=doc(&tren,&duoi);
+      |                   ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:356:25: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  356 |     controdoc=doc(&tren,&duoi);
+      |                         ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:357:23: warning: passing argument 1 of 'ngang' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  357 |     controngang=ngang(&trai,&phai);
+      |                       ^~~~~
+../Core/Src/main.c:212:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  212 | uint8_t ngang(uint8_t *trai,uint8_t *phai)
+      |               ~~~~~~~~~^~~~
+../Core/Src/main.c:357:29: warning: passing argument 2 of 'ngang' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  357 |     controngang=ngang(&trai,&phai);
+      |                             ^~~~~
+../Core/Src/main.c:212:38: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  212 | uint8_t ngang(uint8_t *trai,uint8_t *phai)
+      |                             ~~~~~~~~~^~~~
+../Core/Src/main.c:381:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  381 |        timeset[3]=doc(&tren,&duoi); //thu
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:381:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  381 |        timeset[3]=doc(&tren,&duoi); //thu
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:387:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  387 |        timeset[4]=doc(&tren,&duoi);//ngay
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:387:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  387 |        timeset[4]=doc(&tren,&duoi);//ngay
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:394:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  394 |        timeset[5]=doc(&tren,&duoi);//thang
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:394:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  394 |        timeset[5]=doc(&tren,&duoi);//thang
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:402:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  402 |        timeset[6]=doc(&tren,&duoi);//nam
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:402:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  402 |        timeset[6]=doc(&tren,&duoi);//nam
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:410:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  410 |        timeset[2]=doc(&tren,&duoi);//gio
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:410:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  410 |        timeset[2]=doc(&tren,&duoi);//gio
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:417:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  417 |        timeset[1]=doc(&tren,&duoi);//phut
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:417:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  417 |        timeset[1]=doc(&tren,&duoi);//phut
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:424:23: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  424 |        timeset[0]=doc(&tren,&duoi);//giay
+      |                       ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:424:29: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  424 |        timeset[0]=doc(&tren,&duoi);//giay
+      |                             ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:466:19: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  466 |     controdoc=doc(&tren,&duoi);
+      |                   ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:466:25: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  466 |     controdoc=doc(&tren,&duoi);
+      |                         ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:490:20: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  490 |      controdoc=doc(&tren,&duoi);
+      |                    ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:490:26: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  490 |      controdoc=doc(&tren,&duoi);
+      |                          ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:491:24: warning: passing argument 1 of 'ngang' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  491 |      controngang=ngang(&trai,&phai);
+      |                        ^~~~~
+../Core/Src/main.c:212:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  212 | uint8_t ngang(uint8_t *trai,uint8_t *phai)
+      |               ~~~~~~~~~^~~~
+../Core/Src/main.c:491:30: warning: passing argument 2 of 'ngang' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  491 |      controngang=ngang(&trai,&phai);
+      |                              ^~~~~
+../Core/Src/main.c:212:38: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  212 | uint8_t ngang(uint8_t *trai,uint8_t *phai)
+      |                             ~~~~~~~~~^~~~
+../Core/Src/main.c:514:25: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  514 |         timealrm[1]=doc(&tren,&duoi);//gio
+      |                         ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:514:31: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  514 |         timealrm[1]=doc(&tren,&duoi);//gio
+      |                               ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+../Core/Src/main.c:521:25: warning: passing argument 1 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  521 |         timealrm[0]=doc(&tren,&duoi);//phut
+      |                         ^~~~~
+../Core/Src/main.c:195:22: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |             ~~~~~~~~~^~~~
+../Core/Src/main.c:521:31: warning: passing argument 2 of 'doc' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  521 |         timealrm[0]=doc(&tren,&duoi);//phut
+      |                               ^~~~~
+../Core/Src/main.c:195:36: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'volatile uint8_t *' {aka 'volatile unsigned char *'}
+  195 | uint8_t doc(uint8_t *tren,uint8_t *duoi)
+      |                           ~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "LTEST.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Administrator\STM32CubeIDE\SPITEST\LTEST\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LTEST.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LTEST.elf
+ 
+arm-none-eabi-size   LTEST.elf 
+arm-none-eabi-objdump -h -S  LTEST.elf  > "LTEST.list"
+   text	   data	    bss	    dec	    hex	filename
+  49196	    180	   6060	  55436	   d88c	LTEST.elf
+Finished building: default.size.stdout
+ 
+Finished building: LTEST.list
+ 
+
+02:35:05 Build Finished. 0 errors, 28 warnings. (took 3s.693ms)
+

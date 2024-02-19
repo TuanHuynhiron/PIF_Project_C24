@@ -1,0 +1,6 @@
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:17:6:OLED_SPI_Pins_Init	4	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:29:6:OLED_SPI_Write	16	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:37:6:OLED_Select	4	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:44:6:OLED_Deselect	4	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:49:6:OLED_DataMode	4	static
+../Drivers/STM32F1xx_HAL_Driver/Src/oled/spi.c:54:6:OLED_CommMode	4	static

@@ -1,0 +1,5 @@
+../Core/Src/clock_TT-c/RTCds3231.c:14:6:readtime	24	static
+../Core/Src/clock_TT-c/RTCds3231.c:19:9:BCD2DEC	16	static
+../Core/Src/clock_TT-c/RTCds3231.c:24:9:DEC2BCD	16	static
+../Core/Src/clock_TT-c/RTCds3231.c:29:9:stactusTX	16	static
+../Core/Src/clock_TT-c/RTCds3231.c:43:6:settime	32	static
